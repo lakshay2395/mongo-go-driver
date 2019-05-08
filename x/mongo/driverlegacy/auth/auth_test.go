@@ -11,10 +11,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	wiremessagex "go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
-	. "go.mongodb.org/mongo-driver/x/mongo/driverlegacy/auth"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx/bsoncore"
+	wiremessagex "github.com/lakshay2395/mongo-go-driver/x/mongo/driver/wiremessage"
+	. "github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/auth"
+	"github.com/lakshay2395/mongo-go-driver/x/network/wiremessage"
 )
 
 func TestCreateAuthenticator(t *testing.T) {

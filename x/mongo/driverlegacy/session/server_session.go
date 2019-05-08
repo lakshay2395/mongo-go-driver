@@ -11,8 +11,8 @@ import (
 
 	"crypto/rand"
 
-	"go.mongodb.org/mongo-driver/x/bsonx"
-	"go.mongodb.org/mongo-driver/x/mongo/driverlegacy/uuid"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/uuid"
 )
 
 var rander = rand.Reader

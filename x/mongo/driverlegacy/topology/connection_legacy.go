@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"sync"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/x/bsonx"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/network/command"
-	"go.mongodb.org/mongo-driver/x/network/compressor"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/bson"
+	"github.com/lakshay2395/mongo-go-driver/bson/bsontype"
+	"github.com/lakshay2395/mongo-go-driver/event"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/lakshay2395/mongo-go-driver/x/network/command"
+	"github.com/lakshay2395/mongo-go-driver/x/network/compressor"
+	"github.com/lakshay2395/mongo-go-driver/x/network/wiremessage"
 )
 
 var emptyDoc bson.Raw

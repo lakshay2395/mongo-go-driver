@@ -7,10 +7,10 @@
 package command
 
 import (
-	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx"
-	"go.mongodb.org/mongo-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/internal/testutil/helpers"
+	"github.com/lakshay2395/mongo-go-driver/mongo/writeconcern"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
 	"testing"
 )
 

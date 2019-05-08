@@ -10,7 +10,7 @@ import (
 	"path"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/internal/testutil/helpers"
+	"github.com/lakshay2395/mongo-go-driver/internal/testutil/helpers"
 )
 
 const selectorTestsDir = "../../../data/server-selection/server_selection"

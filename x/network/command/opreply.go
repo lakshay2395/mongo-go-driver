@@ -7,8 +7,8 @@
 package command
 
 import (
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/bson"
+	"github.com/lakshay2395/mongo-go-driver/x/network/wiremessage"
 )
 
 // decodeCommandOpReply handles decoding the OP_REPLY response to an OP_QUERY

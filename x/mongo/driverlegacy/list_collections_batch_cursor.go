@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driverlegacy/topology"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/topology"
 )
 
 // ListCollectionsBatchCursor is a special batch cursor returned from ListCollections that properly

@@ -15,16 +15,16 @@ import (
 	"os"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/internal/testutil"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx"
-	"go.mongodb.org/mongo-driver/x/network/connstring"
-	"go.mongodb.org/mongo-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/bson"
+	"github.com/lakshay2395/mongo-go-driver/bson/primitive"
+	"github.com/lakshay2395/mongo-go-driver/internal/testutil"
+	"github.com/lakshay2395/mongo-go-driver/mongo/options"
+	"github.com/lakshay2395/mongo-go-driver/mongo/readconcern"
+	"github.com/lakshay2395/mongo-go-driver/mongo/readpref"
+	"github.com/lakshay2395/mongo-go-driver/mongo/writeconcern"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx"
+	"github.com/lakshay2395/mongo-go-driver/x/network/connstring"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
 )
 
 func createTestDatabase(t *testing.T, name *string, opts ...*options.DatabaseOptions) *Database {

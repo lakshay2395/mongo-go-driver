@@ -18,8 +18,8 @@ import (
 
 	"github.com/xdg/scram"
 	"github.com/xdg/stringprep"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driver"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
 )
 
 // SCRAMSHA1 holds the mechanism name "SCRAM-SHA-1"

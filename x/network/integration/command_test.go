@@ -11,14 +11,14 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/internal/testutil"
-	"go.mongodb.org/mongo-driver/x/bsonx"
-	"go.mongodb.org/mongo-driver/x/mongo/driverlegacy/topology"
-	"go.mongodb.org/mongo-driver/x/network/address"
-	"go.mongodb.org/mongo-driver/x/network/command"
-	"go.mongodb.org/mongo-driver/x/network/description"
-	"go.mongodb.org/mongo-driver/x/network/result"
+	"github.com/lakshay2395/mongo-go-driver/bson"
+	"github.com/lakshay2395/mongo-go-driver/internal/testutil"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/topology"
+	"github.com/lakshay2395/mongo-go-driver/x/network/address"
+	"github.com/lakshay2395/mongo-go-driver/x/network/command"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/network/result"
 )
 
 func TestCommand(t *testing.T) {

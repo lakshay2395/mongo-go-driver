@@ -10,9 +10,9 @@ import (
 	"context"
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/network/address"
-	"go.mongodb.org/mongo-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driver"
+	"github.com/lakshay2395/mongo-go-driver/x/network/address"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
 )
 
 // AuthenticatorFactory constructs an authenticator.

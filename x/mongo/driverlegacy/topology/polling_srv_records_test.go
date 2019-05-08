@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/x/mongo/driverlegacy/dns"
-	"go.mongodb.org/mongo-driver/x/network/address"
-	"go.mongodb.org/mongo-driver/x/network/connstring"
-	"go.mongodb.org/mongo-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/dns"
+	"github.com/lakshay2395/mongo-go-driver/x/network/address"
+	"github.com/lakshay2395/mongo-go-driver/x/network/connstring"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
 )
 
 type mockResolver struct {

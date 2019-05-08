@@ -3,8 +3,8 @@ package wiremessage
 import (
 	"bytes"
 
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/lakshay2395/mongo-go-driver/x/network/wiremessage"
 )
 
 // WireMessage represents a MongoDB wire message in binary form.

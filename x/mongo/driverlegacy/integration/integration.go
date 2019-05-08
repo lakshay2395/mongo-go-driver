@@ -1,1 +1,1 @@
-package integration // import "go.mongodb.org/mongo-driver/x/mongo/driverlegacy/integration"
+package integration // import "github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/integration"

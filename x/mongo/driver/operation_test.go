@@ -8,17 +8,17 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driverlegacy/session"
-	"go.mongodb.org/mongo-driver/x/mongo/driverlegacy/uuid"
-	"go.mongodb.org/mongo-driver/x/network/address"
-	"go.mongodb.org/mongo-driver/x/network/description"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/bson/bsontype"
+	"github.com/lakshay2395/mongo-go-driver/bson/primitive"
+	"github.com/lakshay2395/mongo-go-driver/mongo/readconcern"
+	"github.com/lakshay2395/mongo-go-driver/mongo/readpref"
+	"github.com/lakshay2395/mongo-go-driver/mongo/writeconcern"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/session"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy/uuid"
+	"github.com/lakshay2395/mongo-go-driver/x/network/address"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/network/wiremessage"
 )
 
 func noerr(t *testing.T, err error) {

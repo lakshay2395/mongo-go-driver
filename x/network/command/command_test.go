@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/x/network/description"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/mongo/readpref"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/network/wiremessage"
 )
 
 func noerr(t *testing.T, err error) {

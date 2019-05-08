@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mongodb.org/mongo-driver/x/network/address"
+	"github.com/lakshay2395/mongo-go-driver/x/network/address"
 )
 
 // ErrPoolConnected is returned from an attempt to connect an already connected pool
@@ -28,13 +28,13 @@ type PoolError string
 func (pe PoolError) Error() string { return string(pe) }
 
 type pool struct {
+	nextid     uint64
 	address    address.Address
 	opts       []ConnectionOption
 	conns      chan *connection
 	generation uint64
 
-	connected int32 // Must be accessed using the sync/atomic package.
-	nextid    uint64
+	connected int32                  // Must be accessed using the sync/atomic package
 	opened    map[uint64]*connection // opened holds all of the currently open connections.
 
 	sync.Mutex

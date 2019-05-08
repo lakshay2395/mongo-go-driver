@@ -100,7 +100,7 @@ functions:
     # Load the expansion file to make an evergreen variable with the current unique version
     - command: expansions.update
       params:
-        file: src/go.mongodb.org/mongo-driver/expansion.yml
+        file: src/github.com/lakshay2395/mongo-go-driver/expansion.yml
 
 
   prepare-resources:
@@ -248,7 +248,7 @@ functions:
    - command: json.send
      params:
        name: perf
-       file: src/go.mongodb.org/mongo-driver/perf.json
+       file: src/github.com/lakshay2395/mongo-go-driver/perf.json
 
 
   run-enterprise-auth-tests:
@@ -337,7 +337,7 @@ post:
   - command: gotest.parse_files
     params:
       files:
-        - "src/go.mongodb.org/mongo-driver/*.suite"
+        - "src/github.com/lakshay2395/mongo-go-driver/*.suite"
   - func: upload-mo-artifacts
   - func: cleanup
 

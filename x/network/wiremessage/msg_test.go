@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/x/bsonx"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx"
 )
 
 var doc = bsonx.Doc{{"x", bsonx.Int32(5)}}

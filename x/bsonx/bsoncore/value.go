@@ -17,8 +17,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/bson/primitive"
+	"github.com/lakshay2395/mongo-go-driver/bson/bsontype"
+	"github.com/lakshay2395/mongo-go-driver/bson/primitive"
 )
 
 // ElementTypeError specifies that a method to obtain a BSON value an incorrect type was called on a bson.Value.

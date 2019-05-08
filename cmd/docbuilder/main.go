@@ -15,7 +15,7 @@ import (
 var tmpl = `<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="refresh" content="5; url=https://godoc.org/go.mongodb.org/mongo-driver/{{.}}">
+        <meta http-equiv="refresh" content="5; url=https://godoc.org/github.com/lakshay2395/mongo-go-driver/{{.}}">
         <meta name=go-import content="go.mongodb.org/mongo-driver git https://github.com/mongodb/mongo-go-driver.git">
         <meta name="go-source" content="go.mongodb.org/mongo-driver https://github.com/mongodb/mongo-go-driver https://github.com/mongodb/mongo-go-driver/tree/master{/dir} https://github.com/mongodb/mongo-go-driver/blob/master{/dir}/{file}#L{line}">
     </head>

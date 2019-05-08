@@ -7,8 +7,8 @@
 package mongo
 
 import (
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/mongo/driverlegacy"
+	"github.com/lakshay2395/mongo-go-driver/mongo/options"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driverlegacy"
 )
 
 // WriteModel is the interface satisfied by all models for bulk writes.

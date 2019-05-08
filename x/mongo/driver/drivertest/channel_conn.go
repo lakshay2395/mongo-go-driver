@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	wiremessagex "go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
-	"go.mongodb.org/mongo-driver/x/network/address"
-	"go.mongodb.org/mongo-driver/x/network/description"
-	"go.mongodb.org/mongo-driver/x/network/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/x/bsonx/bsoncore"
+	wiremessagex "github.com/lakshay2395/mongo-go-driver/x/mongo/driver/wiremessage"
+	"github.com/lakshay2395/mongo-go-driver/x/network/address"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/network/wiremessage"
 )
 
 // ChannelConn implements the driver.Connection interface by reading and writing wire messages

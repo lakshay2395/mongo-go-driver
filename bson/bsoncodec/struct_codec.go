@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"sync"
 
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"github.com/lakshay2395/mongo-go-driver/bson/bsonrw"
+	"github.com/lakshay2395/mongo-go-driver/bson/bsontype"
 )
 
 var defaultStructCodec = &StructCodec{

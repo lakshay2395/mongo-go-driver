@@ -17,12 +17,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/network/address"
-	connectionlegacy "go.mongodb.org/mongo-driver/x/network/connection"
-	"go.mongodb.org/mongo-driver/x/network/description"
-	"go.mongodb.org/mongo-driver/x/network/result"
+	"github.com/lakshay2395/mongo-go-driver/event"
+	"github.com/lakshay2395/mongo-go-driver/x/mongo/driver"
+	"github.com/lakshay2395/mongo-go-driver/x/network/address"
+	connectionlegacy "github.com/lakshay2395/mongo-go-driver/x/network/connection"
+	"github.com/lakshay2395/mongo-go-driver/x/network/description"
+	"github.com/lakshay2395/mongo-go-driver/x/network/result"
 	"golang.org/x/sync/semaphore"
 )
 

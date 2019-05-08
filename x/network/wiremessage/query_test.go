@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/bson"
+	"github.com/lakshay2395/mongo-go-driver/bson"
 )
 
 func TestQuery(t *testing.T) {
